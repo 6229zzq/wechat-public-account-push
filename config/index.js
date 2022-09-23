@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oTrAy55-fJQd3_e-UcFgZ3iZZwBA",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "vKjtMKvN1Q-7nforFYzpJshxhXMD9uBt9Qo_lKs2FrE",
+      useTemplateId: "CALeLYahCiWHmXOpj6OvrqgNP-TO1BjpwWb4DTWXpkA",
       // 所在省份
       province: "重庆",
       // 所在城市
@@ -79,8 +79,9 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "箫箫箫箫箫", "year": "2004", "date": "05-22"},
-        {"type": "节日", "name": "国庆！", "year": "2022", "date": "10-01"},
-        {"type": "节日", "name": "新的一年！", "year": "2023", "date": "01-01"},
+        {"type": "节日", "name": "国庆", "year": "2022", "date": "10-01"},
+        {"type": "节日", "name": "新的一年", "year": "2023", "date": "01-01"},
+        {"type": "节日", "name": "放假回家", "year": "2023", "date": "01-16"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -220,7 +221,7 @@ export const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "lover_prattle", contents: "今天也要记得开心和照顾好自己！"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
         "因为太喜欢你，所以看谁都像是情敌。",
