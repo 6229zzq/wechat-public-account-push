@@ -28,7 +28,7 @@ export const USER_CONFIG = {
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA: flase,
+    CIBA: false,
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
@@ -57,7 +57,7 @@ export const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [oTrAy55-fJQd3_e-UcFgZ3iZZwBA]
+  USERS: ["oTrAy55-fJQd3_e-UcFgZ3iZZwBA"
     {
       // 想要发送的人的名字
       name: "箫箫箫箫箫",
