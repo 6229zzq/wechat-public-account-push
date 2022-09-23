@@ -222,7 +222,6 @@ export const USER_CONFIG = {
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     {"keyword": "lover_prattle", contents: "今天也要记得开心和照顾好自己！"},
-      ]},
     // 你可以不断按格式往下增加
     // ...
   ],
